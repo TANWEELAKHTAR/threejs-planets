@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLANET</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="w-full h-screen overflow-hidden text-white">
+    <div class="w-full h-screen absolute top-0 left-0 z-10">
+      <nav class="w-full py-4 px-10 flex justify-between items-center">
+        <h3 class="text-3xl font-['Bellina']">PLANETS</h3>
+        <div class="hidden md:flex items-center gap-5 font-['Gilroy']">
+          <h3 class="text-md">HOME</h3>
+          <h3 class="text-md">ABOUT</h3>
+          <h3 class="text-md">CONTACT</h3>
+        </div>
+      </nav>
+      <div class="absolute top-[10%] left-1/2 -translate-x-1/2 text-center font-['Bellina']">
+        <div class="w-full h-[5em] md:h-[9em] overflow-hidden">
+          <h1 class="h-full heading text-7xl md:text-9xl font-light tracking-tighter">EARTH</h1>
+          <h1 class="h-full heading text-7xl md:text-9xl font-light tracking-tighter">VENUS</h1>
+          <h1 class="h-full heading text-7xl md:text-9xl font-light tracking-tighter">MAKEMELA</h1>
+          <h1 class="h-full heading text-7xl md:text-9xl font-light tracking-tighter">MERCURY</h1>
+        </div>
+        <p class="text-md font-['Gilroy']">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+        <div class="w-full h-px bg-gradient-to-r from-transparent via-white to-transparent mt-4"></div>
+      </div>
+    </div>
+    <canvas></canvas>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
